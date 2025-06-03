@@ -1,10 +1,7 @@
 body {
 	background: black;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
+
 .postcard {
 	background: white;
 	width: 400px;
@@ -26,19 +23,20 @@ body {
 	display: flex;
 }
 .body-left p:first-child {
-	margin-top: x;
+	margin-top: 0;
 }
 .body-left .body-right {
-	padding: x;
+	padding: 5px;
 }
 input {
-	border: x;
-	border-bottom: x;
+	border: none;
+	border-bottom: grey 1px solid;
 }
 .postcard-footer {
-	text-align: x;
+	text-align: center;
 }
 button {
-	background-color: x;
-	padding: x;
+	margin-top: 25px;
+	background-color: grey;
+	padding: 5px;
 }
